@@ -12,9 +12,8 @@ Each player goes to the webpage that this repository creates, and creates/joins 
 websocket to the multitroid server, and displays the session on the webpage. This websocket is only used to display 
 state on the webpage, and not for actual playing.
 
-The player gets a list of snes/emulators they can connect to. When connecting, another websocket is created to the
-server *per console you connect*. After the server says OK, *yet another websocket* is created, but this time to
-SNI/USB2SNES to connect to the console. 
+The player gets a list of snes/emulators they can connect to. Another websocket is created to 
+*each console* you connect to, and then another ws to the server *per console*.
 
 To sum it up:
 - Webpage <-ws-> Server
