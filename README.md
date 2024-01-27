@@ -39,7 +39,8 @@ until the SNES has finished processing the previous set. Then the new set is sen
 This is really complicated, but basically boils down to ASM code that the SNES
 can run to make it do what we want. It includes overflow protection, bit/byte manipulation, the works. The reason we 
 let the SNES run the code is for consistency. It would be really bad if we write something the snes is currently using. 
-This would lead to many crashes and half-written data. Instead we let the SNES write inbetween its own game loops. 
+This would lead to many crashes and half-written data. Instead we let the SNES execute the code inbetween its own game 
+loops. 
 
 Commands are received from the server. They are then put in the command queue and processed when the mainloop gets 
 there. 
