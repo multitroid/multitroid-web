@@ -171,7 +171,7 @@ const createRangeDescriptorBitCommands = (rangeDescriptor, maxCommandLength, isI
       commands.push(command)
       continue
     }
-    // If the command was too big, create commands for each bit instead
+    // If the command was too big to fit in our SRAM space, create commands for each bit instead
 
     for (let j = 0; j < 8; j++) {
       // Per bit
