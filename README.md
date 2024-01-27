@@ -1,6 +1,8 @@
 # [multitroid](http://multitroid.com) web client
 Super Metroid co-op frontend.
 
+Find us on [Discord](https://discord.gg/yQmPm46).
+
 ## Local development
 ```sh
 npm install
