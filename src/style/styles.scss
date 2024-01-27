@@ -1,0 +1,112 @@
+@import './colors.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: none;
+}
+
+@font-face {
+  font-family: 'kongtext';
+  src: url('../fonts/kongtext.ttf');
+  font-display: swap;
+}
+
+.form-control:disabled {
+  color: #666666;
+  background-color: #333333;
+}
+
+.link-icon {
+  height: 12px;
+  margin-right: 6px;
+  fill: $secondary-text-color;
+}
+
+.hand {
+  cursor: pointer;
+}
+
+.fmt {
+  font-family: 'kongtext', sans-serif;
+}
+
+.text-shadow-1 {
+  text-shadow: 1px 1px black;
+}
+
+.text-shadow-2 {
+  text-shadow: 2px 2px black;
+}
+
+.text-shadow-3 {
+  text-shadow: 3px 3px black;
+}
+
+.connect-container {
+  background: $background-color;
+  min-height: 100vh;
+}
+
+.fwb {
+  font-weight: bold;
+}
+
+.text-primary {
+  color: $primary-text-color;
+}
+
+.text-secondary {
+  color: $secondary-text-color;
+}
+
+.text-disabled {
+  color: #444444;
+}
+
+.text-success {
+  color: #28a745;
+}
+
+.text-danger {
+  color: #dc3545;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.faded-image {
+  -webkit-mask-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(70%, rgba(0, 0, 0, 1)), color-stop(100%, rgba(0, 0, 0, 0)));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 70%, rgba(0,0,0,0) 100%);
+}
+
+.logo-image {
+  @extend .faded-image;
+  width: 16rem;
+  max-width: 100%;
+  margin-bottom: -1.5rem;
+}
+
+@media (max-width: 300px) {
+  .logo-text {
+    font-size: 18px;
+  }
+}
+
+.topbar-logo-image {
+  @extend .faded-image;
+  height: 3rem;
+  margin-bottom: -0.8rem;
+  margin-left: 1.5rem;
+}
+
+.explanation-image {
+  @extend .faded-image;
+  float: right;
+  width: 10rem;
+  max-width: 50%;
+  margin: 0.5rem;
+}

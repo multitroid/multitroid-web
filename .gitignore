@@ -1,0 +1,12 @@
+build/
+dist/
+
+# Dependency directory
+node_modules
+
+# IntelliJ files
+.idea/
+*.iml
+
+# Mac
+.DS_Store

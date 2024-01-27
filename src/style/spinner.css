@@ -1,0 +1,162 @@
+.spinner-container {
+  position: relative;
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.spinner {
+  height: 48px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: horizontal 0.8s infinite linear;
+  animation: horizontal 0.8s infinite linear;
+}
+
+@keyframes horizontal {
+  100% {
+    left: 256px;
+  }
+}
+
+.spinner div {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+}
+
+.plasma > .rect1,
+.plasma > .rect2 {
+  background-color: lightskyblue;
+  height: 4px;
+  width: 48px;
+}
+
+.plasma .rect1 {
+  -webkit-animation: plasma-top 0.8s infinite linear;
+  animation: plasma-top 0.8s infinite linear;
+  top: 0;
+}
+
+.plasma .rect2 {
+  -webkit-animation: plasma-bottom 0.8s infinite linear;
+  animation: plasma-bottom 0.8s infinite linear;
+  bottom: 0;
+}
+
+@keyframes plasma-top {
+  0%, 50%, 100% {
+    top: 12px;
+  }
+  25%, 75% {
+    top: 0;
+  }
+}
+
+@keyframes plasma-bottom {
+  0%, 50%, 100% {
+    bottom: 12px
+  }
+  25%, 75% {
+    bottom: 0;
+  }
+}
+
+.wave > div {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  background-color: mediumpurple;
+  top: 0;
+  -webkit-animation: wave-up-down 0.2s alternate infinite ease-in-out;
+  animation: wave-up-down 0.2s alternate infinite ease-in-out;
+}
+
+.wave .rect1 {
+  background-color: #d3b1ff;
+  left: 64px;
+}
+
+.wave .rect2 {
+  left: 48px;
+  opacity: 0.8;
+  -webkit-animation-delay: 0.05s;
+  animation-delay: 0.05s;
+}
+
+.wave .rect3 {
+  left: 32px;
+  opacity: 0.6;
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.wave .rect4 {
+  left: 16px;
+  opacity: 0.4;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+}
+
+.wave .rect5 {
+  left: 0;
+  opacity: 0.2;
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+@keyframes wave-animation {
+  0%, 50%, 100% {
+    top: 0;
+  }
+  25%, 75% {
+    top: 48px;
+  }
+}
+
+@keyframes wave-up-down {
+  to {
+    transform: translatey(48px);
+  }
+}
+
+.spazer > .rect1,
+.spazer > .rect2,
+.spazer > .rect3 {
+  background-color: #ffd85f;
+  height: 3px;
+  width: 24px;
+}
+
+.spazer .rect1 {
+  -webkit-animation: spazer-top 0.8s infinite linear;
+  animation: spazer-top 0.8s infinite linear;
+  top: 0;
+}
+
+.spazer .rect2 {
+  top: 22px;
+}
+
+.spazer .rect3 {
+  -webkit-animation: spazer-bottom 0.8s infinite linear;
+  animation: spazer-bottom 0.8s infinite linear;
+  bottom: 0;
+}
+
+@keyframes spazer-top {
+  0%, 50%, 100% {
+    top: 17px;
+  }
+  25%, 75% {
+    top: 0;
+  }
+}
+
+@keyframes spazer-bottom {
+  0%, 50%, 100% {
+    bottom: 17px
+  }
+  25%, 75% {
+    bottom: 0;
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "plugins": [
+    "react"
+  ],
+  "globals": {
+    "Promise": true,
+    "Symbol": true,
+    "Uint8Array": true,
+    "__dirname": true,
+    "require": true,
+    "module": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "no-mixed-spaces-and-tabs": "error",
+    "no-console": "off",
+    "new-cap": "off",
+    "strict": "off",
+    "no-underscore-dangle": "off",
+    "no-use-before-define": "off",
+    "eol-last": "off",
+    "quotes": [
+      "error",
+      "single"
+    ],
+    "jsx-quotes": "warn",
+    "no-unused-vars": "warn",
+    "react/display-name": "off",
+    "react/prop-types": "off",
+    "react/jsx-no-undef": "warn",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": [
+      "warn",
+      {
+        "additionalHooks": "(useAsync|useAsyncCallback)"
+      }
+    ]
+  }
+}

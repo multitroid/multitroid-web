@@ -1,0 +1,157 @@
+@import './colors.scss';
+
+.span2h {
+  grid-column: auto / span 2;
+}
+
+.span2v {
+  grid-row: auto / span 2;
+}
+
+@media (max-width: 1087px) {
+  .span2h {
+    grid-column: inherit;
+  }
+  .span2v {
+    grid-row: inherit;
+  }
+  .bingo-board {
+    font-size: 12px;
+  }
+}
+
+.session-container {
+  background: $background-color;
+  min-height: 100vh;
+}
+
+.session {
+  display: grid;
+  height: 100vh;
+  grid-template-rows: 1fr auto;
+}
+
+.range-value-enabled, .range-value-disabled {
+  padding: 3px;
+}
+
+.range-value-enabled {
+  color: black;
+  background-color: orange;
+}
+
+.range-value-disabled {
+  background-color: rgba(1, 1, 1, 0.1);
+}
+
+.range-circle {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  background-color: $secondary-text-color;
+  margin-left: 4px;
+  margin-right: 8px;
+  box-shadow: 2px 0;
+}
+
+.range-value-enabled .range-circle {
+  background-color: red;
+}
+
+.energy {
+  display: inline-block;
+  width: 136px;
+}
+
+.energy-row {
+  min-height: 16px;
+}
+
+.energy-tanks {
+  min-height: 34px;
+}
+
+.energy-tank {
+  width: 15px;
+  height: 13px;
+  border-top: 3px solid #888888;
+  border-left: 3px solid #888888;
+  background-color: #444444;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
+.filled-energy-tank {
+  border-color: white;
+  background-color: deeppink;
+}
+
+.reserve {
+  vertical-align: top;
+  display: inline-block;
+  line-height: 17px;
+  min-width: 3rem;
+}
+
+.ammo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ammo-type {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 17px;
+  margin-right: 0.5rem;
+  min-width: 2.5rem;
+}
+
+.minimap {
+  width: 81px;
+  height: 49px;
+  text-align: center;
+  background-size: 16px 16px;
+  line-height: 16px;
+  background-image: linear-gradient(to right, dimgrey 1px, transparent 1px), linear-gradient(to bottom, dimgrey 1px, transparent 1px);
+}
+
+.options-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1.5rem;
+}
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  grid-gap: 1rem;
+  grid-auto-flow: row dense;
+}
+
+.route-planner-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 0.25rem;
+}
+
+.route-planner-grid pre {
+  margin: 0;
+  padding: 0;
+}
+
+.cheat-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .panel-grid {
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  }
+  .bingo-board {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "routePoints": [
+    {
+      "name": "Ceres",
+      "note": "Wait on the elevator until escape starts",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 14,
+      "mask": 1
+    },
+    {
+      "name": "Morphing Ball",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 2,
+      "mask": 4
+    },
+    {
+      "name": "First Missile",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 4,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Pit Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 64
+    },
+    {
+      "name": "ENERGY_TANK in Terminator Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 1
+    },
+    {
+      "name": "POWER_BOMB in Alpha Power Bomb Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 1
+    },
+    {
+      "name": "MISSILE in Alpha Power Bomb Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 5,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in The Moat",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 16
+    },
+    {
+      "name": "MISSILE in Wrecked Ship Main Shaft",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 1
+    },
+    {
+      "name": "Phantoon",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 11,
+      "mask": 1
+    },
+    {
+      "name": "SUPER_MISSILE in Wrecked Ship East Super Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 64
+    },
+    {
+      "name": "SUPER_MISSILE in Wrecked Ship West Super Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 32
+    },
+    {
+      "name": "ENERGY_TANK in Wrecked Ship Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 16
+    },
+    {
+      "name": "MISSILE in Assembly Line",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE_HIDDEN_SCENERY in West Ocean",
+      "note": "Up top",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in West Ocean",
+      "note": "Left side in the maze",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Bowling Alley",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 4
+    },
+    {
+      "name": "RESERVE_TANK_CHOZO_BALL in Bowling Alley",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 16,
+      "mask": 2
+    },
+    {
+      "name": "Gravity Suit",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 2,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in West Ocean",
+      "note": "Bottom left underwater",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 2
+    },
+    {
+      "name": "POWER_BOMB in Crateria Power Bomb Room",
+      "note": "Above the ship",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 1
+    },
+    {
+      "name": "ENERGY_TANK in Gauntlet Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 0,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Green Pirates Shaft",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Green Pirates Shaft",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 2
+    },
+    {
+      "name": "SUPER_MISSILE in Etecoon Super Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 128
+    },
+    {
+      "name": "ENERGY_TANK in Etecoon Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 64
+    },
+    {
+      "name": "POWER_BOMB in Green Brinstar Main Shaft",
+      "note": "Where you learn to wall jump",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Big Pink",
+      "note": "To the left of the grapple points",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 32
+    },
+    {
+      "name": "POWER_BOMB in Pink Brinstar Power Bomb Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 1
+    },
+    {
+      "name": "ENERGY_TANK in Hopper Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 4,
+      "mask": 8
+    },
+    {
+      "name": "SUPER_MISSILE in Spore Spawn Super Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 64
+    },
+    {
+      "name": "MISSILE in Big Pink",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 64
+    },
+    {
+      "name": "ENERGY_TANK in Waterway Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 4,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Green Hill Zone",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Crumble Shaft",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 6,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Golden Torizo's Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 8,
+      "mask": 64
+    },
+    {
+      "name": "Golden Torizo",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 10,
+      "mask": 4
+    },
+    {
+      "name": "SUPER_MISSILE in Golden Torizo's Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 8,
+      "mask": 128
+    },
+    {
+      "name": "Screw Attack",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 2,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Mickey Mouse Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 2
+    },
+    {
+      "name": "POWER_BOMB (of shame) in Wasteland",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 16
+    },
+    {
+      "name": "Ridley",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 10,
+      "mask": 1
+    },
+    {
+      "name": "ENERGY_TANK in Ridley Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 64
+    },
+    {
+      "name": "ENERGY_TANK in Lower Norfair Fireflea Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 10,
+      "mask": 1
+    },
+    {
+      "name": "MISSILE in Lower Norfair Spring Ball Maze Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 4
+    },
+    {
+      "name": "POWER_BOMB in Lower Norfair Escape Power Bomb Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Three Muskateers' Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 9,
+      "mask": 32
+    },
+    {
+      "name": "ENERGY_TANK in Crocomire's Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 6,
+      "mask": 16
+    },
+    {
+      "name": "POWER_BOMB in Post Crocomire Power Bomb Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 2
+    },
+    {
+      "name": "Grappling Beam",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 64
+    },
+    {
+      "name": "MISSILE in Post Crocomire Jump Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Post Crocomire Missile Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Green Bubbles Missile Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 128
+    },
+    {
+      "name": "RESERVE_TANK in Norfair Reserve Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Norfair Reserve Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Bubble Mountain",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 8,
+      "mask": 1
+    },
+    {
+      "name": "Save the animals :)",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 1,
+      "mask": 128
+    }
+  ]
+}

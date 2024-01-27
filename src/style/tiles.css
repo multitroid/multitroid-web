@@ -1,0 +1,31 @@
+.sm-tile {
+
+}
+
+.sm-item {
+  fill: white;
+}
+
+.sm-border {
+  stroke: white;
+  stroke-width: 1.15;
+}
+
+.sm-no-tile {
+  stroke-width: 1.15;
+}
+
+.sm-elevator {
+  stroke: grey;
+  stroke-width: 1.15;
+  stroke-dasharray: 1;
+}
+
+.sm-minimap {
+  fill: rgb(232, 96, 168);
+  stroke: none;
+}
+
+.sm-arrow {
+  fill: red;
+}

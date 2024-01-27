@@ -1,0 +1,28 @@
+.marker {
+  transform-box: fill-box;
+  transform-origin: 50% 50%;
+}
+
+.animated {
+  will-change: transform;
+  backface-visibility: hidden;
+  animation: scaleanim-lg 2s infinite;
+}
+
+.zoomed .animated {
+  will-change: transform;
+  backface-visibility: hidden;
+  animation: scaleanim-sm 2s infinite;
+}
+
+@keyframes scaleanim-sm {
+  0% { transform: scale(1.5); }
+  50% { transform: scale(1); }
+  100% { transform: scale(1.5); }
+}
+
+@keyframes scaleanim-lg {
+  0% { transform: scale(2); }
+  50% { transform: scale(1); }
+  100% { transform: scale(2); }
+}

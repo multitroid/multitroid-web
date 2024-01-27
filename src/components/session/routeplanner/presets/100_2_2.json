@@ -1,0 +1,428 @@
+{
+  "routePoints": [
+    {
+      "name": "Ceres",
+      "note": "You're the Ridley runner",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 14,
+      "mask": 1
+    },
+    {
+      "name": "Bombs",
+      "note": "Wait for morph and missiles",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 16
+    },
+    {
+      "name": "Bomb Torizo",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 8,
+      "mask": 4
+    },
+    {
+      "name": "SUPER_MISSILE in Early Supers Room",
+      "note": "Jump over the E-tank in Terminator Room",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 1
+    },
+    {
+      "name": "RESERVE_TANK_CHOZO_BALL in Reserve Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Reserve Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE (2) in Reserve Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 2,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Early Supers Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 128
+    },
+    {
+      "name": "Charge Beam",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 7,
+      "mask": 16
+    },
+    {
+      "name": "Spazer",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 6,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Warehouse Kihunter Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 5,
+      "mask": 16
+    },
+    {
+      "name": "Kraid",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 9,
+      "mask": 1
+    },
+    {
+      "name": "Varia Suit",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 2,
+      "mask": 1
+    },
+    {
+      "name": "ENERGY_TANK in Warehouse Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 5,
+      "mask": 8
+    },
+    {
+      "name": "ENERGY_TANK in Hi Jump Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 7,
+      "mask": 1
+    },
+    {
+      "name": "Hi-Jump Boots",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 1
+    },
+    {
+      "name": "MISSILE in Hi Jump Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 6,
+      "mask": 128
+    },
+    {
+      "name": "MISSILE in Cathedral",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 6,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Speed Booster Hall",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 8,
+      "mask": 2
+    },
+    {
+      "name": "Speed Booster",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Double Chamber",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 8,
+      "mask": 8
+    },
+    {
+      "name": "Wave Beam",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 6,
+      "mask": 1
+    },
+    {
+      "name": "Ice Beam",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 6,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Main Street",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 1
+    },
+    {
+      "name": "ENERGY_TANK in Mama Turtle Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 4
+    },
+    {
+      "name": "MISSILE in Mama Turtle Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 8
+    },
+    {
+      "name": "SUPER_MISSILE in Main Street",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in Pseudo Plasma Spark Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 64
+    },
+    {
+      "name": "MISSILE in Watering Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 32
+    },
+    {
+      "name": "SUPER_MISSILE in Watering Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 17,
+      "mask": 16
+    },
+    {
+      "name": "Botwoon",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 12,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in The Precious Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 128
+    },
+    {
+      "name": "Draygon",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 12,
+      "mask": 1
+    },
+    {
+      "name": "Space Jump",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 2
+    },
+    {
+      "name": "ENERGY_TANK in Botwoon Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 19,
+      "mask": 1
+    },
+    {
+      "name": "MISSILE in East Sand Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 4
+    },
+    {
+      "name": "POWER_BOMB in East Sand Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 8
+    },
+    {
+      "name": "Spring Ball",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 2,
+      "mask": 2
+    },
+    {
+      "name": "Plasma Beam",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 6,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in Aqueduct",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 16
+    },
+    {
+      "name": "SUPER_MISSILE in Aqueduct",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 32
+    },
+    {
+      "name": "RESERVE_TANK in West Sand Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 2
+    },
+    {
+      "name": "MISSILE in West Sand Hole",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 18,
+      "mask": 1
+    },
+    {
+      "name": "X-Ray Scope",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EQUIPMENT",
+      "index": 3,
+      "mask": 128
+    },
+    {
+      "name": "POWER_BOMB in Morph Ball Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 8
+    },
+    {
+      "name": "ENERGY_TANK in Blue Brinstar Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Blue Brinstar Double Missile Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 4,
+      "mask": 16
+    },
+    {
+      "name": "MISSILE (2) in Blue Brinstar Double Missile Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 4,
+      "mask": 32
+    },
+    {
+      "name": "MISSILE in Blue Brinstar Energy Tank Room",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 3,
+      "mask": 16
+    },
+    {
+      "name": "SUPER_MISSILE in Crateria Super Room",
+      "note": "Next to climb",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 8
+    },
+    {
+      "name": "MISSILE in The Final Missile",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "ITEM",
+      "index": 1,
+      "mask": 16
+    },
+    {
+      "name": "Mother Brain",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 13,
+      "mask": 2
+    },
+    {
+      "name": "Save the animals :)",
+      "note": "",
+      "type": "bitDescriptor",
+      "rangeName": "EVENT",
+      "index": 1,
+      "mask": 128
+    }
+  ]
+}
