@@ -32,8 +32,8 @@ The webpage will run code in a loop for as long as the snes+server websockets ar
 proximity. It is the server that decides what to read, and it depends on which ROM type was selected for the session.
 - Check command queue (more on this below) for things to write to the SNES, and write them. This will put assembly 
 code in SRAM, and will be run by the snes on the next game loop (not website loop). This can be slow depending on the amount of data, 
-and will keep writing and 
-waiting for the snes until all the commands have been written.
+and will keep writing and waiting for the snes until all the commands have been written. Each set of commands waits
+until the SNES has finished processing the previous set. Then the new set is sent to the SNES.
 - Wait up to 250ms before looping, depending on how long the previous loop took
 
 ### Commands
