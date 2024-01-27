@@ -1,0 +1,5 @@
+services:
+  multitroid:
+    build: .
+    ports:
+      - 8092:8092
