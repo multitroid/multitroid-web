@@ -98,15 +98,14 @@ body {
 
 .topbar-logo-image {
   @extend .faded-image;
-  height: 3rem;
-  margin-bottom: -0.8rem;
-  margin-left: 1.5rem;
+  height: 4.5rem;
+  margin-bottom: -1.2rem;
 }
 
 .explanation-image {
   @extend .faded-image;
   float: right;
-  width: 10rem;
+  width: 14rem;
   max-width: 50%;
   margin: 0.5rem;
 }

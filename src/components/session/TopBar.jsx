@@ -8,7 +8,7 @@ import { useContextSelector } from 'use-context-selector'
 import Discord from '../../images/icons/Discord'
 import Settings from '../../images/icons/Settings'
 import ArrowDown from '../../images/icons/ArrowDown'
-import logo from '../../images/ai/logo3.png'
+import logo from '../../images/ai/samuses.png'
 
 
 export default React.memo(({ showOptions, setShowOptions }) => {
@@ -36,18 +36,16 @@ export default React.memo(({ showOptions, setShowOptions }) => {
 
   return <div className="p-3">
 
-    <div>
-      <img className="topbar-logo-image" alt="Logo with three Samuses" src={logo}/>
-
+    <span>
       <div className="text-shadow-1 mb-1 position-relative">
         <Link to="/" className="text-decoration-none fwb fmt text-primary">
           <small>{title}</small>
         </Link>
       </div>
-    </div>
+    </span>
 
 
-    <div className="d-flex flex-wrap align-items-end text-shadow-1">
+    <span className="d-flex flex-wrap align-items-end text-shadow-1">
       <div className="text-secondary me-4 text-nowrap">
         [ <span>{romName} / {modeName}</span> ]
       </div>
@@ -90,7 +88,7 @@ export default React.memo(({ showOptions, setShowOptions }) => {
         [ <a target="_blank" rel="noreferrer" href="https://discord.gg/yQmPm46"><Discord className="link-icon"
         fill="#aaaaaa"/>Discord</a> ]
       </div>
-    </div>
+    </span>
   </div>
 
 })

@@ -1,7 +1,7 @@
-import samusPlaying from '../../../../images/ai/samus_playing.png'
+import samusVanilla from '../../../../images/ai/samus_vanilla.png'
 
 export default () => <>
-  <img className="explanation-image" alt="Samus playing" src={samusPlaying}/>
+  <img className="explanation-image" alt="Samus playing" src={samusVanilla}/>
 
   <p className="text-secondary">
     Normal is the classic multitroid mode, where players cooperate to win the game. They will share energy, ammo,

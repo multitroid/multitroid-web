@@ -1,7 +1,7 @@
-import samusConfused from '../../images/ai/samus_confused.png'
+import samusQuestion from '../../images/ai/samus_question.png'
 
 export default () => <>
-  <img className="explanation-image" alt="Samus being confused" src={samusConfused}/>
+  <img className="explanation-image" alt="Samus being confused" src={samusQuestion}/>
 
   <ul className="mt-3 list-unstyled">
     <li className="mb-3">

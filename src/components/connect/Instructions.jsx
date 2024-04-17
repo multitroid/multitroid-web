@@ -1,7 +1,7 @@
-import samusInstructions from '../../images/ai/samus_instructions.png'
+import samusDocument from '../../images/ai/samus_document.png'
 
 export default () => <>
-  <img className="explanation-image" alt="Samus showing you instructions" src={samusInstructions}/>
+  <img className="explanation-image" alt="Samus showing you instructions" src={samusDocument}/>
 
   <div className="mt-3">
     <p className="fwb text-shadow-1">Download and start software that can communitcate with SNES/emulator. Preferably
